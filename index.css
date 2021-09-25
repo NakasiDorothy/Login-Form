@@ -1,0 +1,128 @@
+#bar{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bolder;
+    color: red;
+    text-align: left;
+}
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial;
+    background-image: url(./img/movies.png);
+    text-align: center;
+}
+
+.login{
+    width: 32px;
+    overflow: hidden;
+    margin: auto;  
+    margin: 20 0 0 450px;  
+    padding: 80px;  
+    background: #23463f;  
+    border-radius: 15px ;
+}
+
+h2{  
+      
+    color: white;  
+    padding: 2px; 
+    font-size: 30px; 
+}  
+
+#Email{ 
+    font-size: 15px; 
+    width: 300px;  
+    height: 40px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;
+    background-color: rgb(49, 48, 48);
+
+}
+
+#Password{  
+    font-size: 15px;
+    width: 300px;  
+    height: 40px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;
+    background-color: rgb(49, 48, 48);
+
+}
+
+#button{  
+    font-size: 15px;
+    color: white;
+    width: 310px;  
+    height: 40px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px; 
+    background-color: red;
+}
+
+span{  
+    color: rgba(110, 108, 108,0.4); 
+    font-size: 13px;  
+}
+
+.help{
+    color: white;
+    font-size: 13px; 
+
+}
+.alt{
+    color: white;
+    font-size: 13px; 
+}
+
+.info{
+    color: white;
+    font-size: 13px; 
+}
+.container{
+    background-color: rgba(8, 8, 8, 0.9);
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    text-align: justify;
+    padding-left: 80px;
+    padding-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 70px;
+    text-decoration-color: rgb(87, 85, 85);
+
+}
+
+.Net{
+    display: inline-block;
+    font-size: 15px;
+    color:rgb(87, 85, 85); 
+}
+
+.sign{
+    display: inline-block;
+    font-size: 15px;
+    text-emphasis: 10px;
+}
+
+.help{
+    display: inline-block;
+}
+img{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+.alt{
+    display: inline-block;
+    color: rgb(87, 85, 85);
+}
+.checkbox:checked::before{
+background-color:rgb(87, 85, 85) ;
+}
